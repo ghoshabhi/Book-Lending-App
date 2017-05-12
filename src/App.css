@@ -1,0 +1,50 @@
+/*.App {
+  text-align: center;
+}*/
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color:#222;
+  height: 30px;
+  padding: 20px 20px;
+  color: white;
+}
+
+.container {
+  padding: 20px;
+}
+
+.App-header > a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.shelf__books {
+  display: flex;
+  flex-direction: row;
+  margin: 3px;
+}
+
+.book {
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+  height: 12rem;
+  width: 12rem;
+  background-color: #00cceb;
+  border-radius: 2px;
+}
